@@ -67,16 +67,25 @@ html, head, body {
 .sub-header {
     margin-bottom: 5px;
     font-weight: 600;
+    background-color: #00008b;
+    padding: 8px;
+    color: #fff;
 }
-.executive-summary {
+.executive-summary, .tech-summary, .edu-qual, .exp-summary  {
     margin-bottom: 10px;
+    border-left: 3px solid #00008b;
+    border-radius: 5px;
 }
+
 .executive-summary ul {
     list-style: circle;
     padding: 0 0 0 40px;
 }
-.tech-summary {
-    margin-bottom: 10px;
+.technical-skills {
+    padding-left: 20px
+}
+.technical-skills .row-row {
+    margin-bottom: 5px;
 }
 .technical-skills .row-row p:first-child {
     flex: 15% 0 0;
@@ -91,12 +100,6 @@ html, head, body {
     border-radius: 10px;
     line-height: 22px;
     margin-bottom: 5px;
-}
-.edu-qual {
-    margin-bottom: 10px;
-}
-.exp-summary {
-    margin-bottom: 10px;
 }
 footer {
     width: 100%;
